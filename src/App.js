@@ -3,6 +3,8 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import TableData from './usage/ratingengine/Listing'
+import {Stack, VStack} from './components/Stack'
+import MyModal from './components/helpModal'
 
 const navigation = [
   { name: 'Rating Engine ', href: '#' },
@@ -70,12 +72,15 @@ export default function Example() {
               ))}
             </div>
             <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
-              <a
+              <MyModal className="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                Help
+              </MyModal>
+              {/* <a
                 href="#"
-                className="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20"
+                
               >
-                Log in
-              </a>
+                Help
+              </a> */}
             </div>
           </nav>
           <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -134,6 +139,25 @@ export default function Example() {
           <div className="mx-auto max-w-6xl pt-20 pb-32 sm:pt-48 sm:pb-40">
             <div className='text-left'>
               <TableData />
+              {/* <Stack className="border w-full p-10 justify-between" >
+                <VStack className="gap-5">
+                  <div className='w-10 h-10 bg-red-200' />
+                  <div className='w-10 h-10 bg-red-200' />
+                  <div className='w-10 h-10 bg-red-200' />
+                </VStack>
+
+                <Stack>
+                  <div className='w-10 h-10 bg-red-200' />
+                  <div className='w-10 h-10 bg-red-200' />
+                  <div className='w-10 h-10 bg-red-200' />
+                </Stack>
+
+                <Stack>
+                  <div className='w-10 h-10 bg-red-200' />
+                  <div className='w-10 h-10 bg-red-200' />
+                  <div className='w-10 h-10 bg-red-200' />
+                </Stack>
+              </Stack> */}
             </div>
           </div>
         </div>
