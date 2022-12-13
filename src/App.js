@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import TableData from './usage/ratingengne/Listing'
+import TableData from './usage/ratingengine/Listing'
 
 const navigation = [
   { name: 'Rating Engine ', href: '#' },
@@ -131,7 +131,7 @@ export default function Example() {
       </div>
       <main>
         <div className="relative px-6 lg:px-8">
-          <div className="mx-auto max-w-6xl pt-20 pb-32 sm:pt-48 sm:pb-40 border">
+          <div className="mx-auto max-w-6xl pt-20 pb-32 sm:pt-48 sm:pb-40">
             <div className='text-left'>
               <TableData />
             </div>
