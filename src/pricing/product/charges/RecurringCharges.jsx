@@ -16,7 +16,6 @@ export default function RecturringCharges() {
             Refers to events or expenses that are one-time or irregular, rather
             than recurring or ongoing.
           </p>
-         
         </div>
 
         <div className="grid grid-cols-3">

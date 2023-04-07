@@ -1,4 +1,4 @@
-import React,{ useState } from 'react'
+import React, { useState } from 'react'
 import { Tab } from '@headlessui/react'
 
 import Layout from '@/components/Layout'
@@ -14,7 +14,7 @@ function classNames(...classes) {
 }
 export default function Product() {
   let [categories] = useState({
-    "Retail Price": [
+    'Retail Price': [
       {
         id: 1,
         title: 'Does drinking coffee make you smarter?',
@@ -30,7 +30,7 @@ export default function Product() {
         shareCount: 2,
       },
     ],
-    "Wholesale Price": [
+    'Wholesale Price': [
       {
         id: 1,
         title: 'Is tech making coffee better or worse?',
@@ -66,36 +66,32 @@ export default function Product() {
   return (
     <>
       <Layout pageLeftNav={<LeftNN />}>
-       
-         
-          <div className="w-full relative">
-      <Tab.Group>
-        <Tab.List className="flex space-x-1 rounded-xl relative z-0">
-          {Object.keys(categories).map((category) => (
-            <Tab
-           
-              key={category}
-              className={({ selected }) =>
-                classNames(
-                  'rounded-t-md py-2 px-4 font-medium leading-5 text-center',
-                  'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
-                  selected
-                    ? 'bg-white text-primary z-10 border-x-2 border-transparent'
-                    : 'text-gray-800 bg-gray-300 hover:text-gray-900 border-x-2 border-t-2 border-gray-400'
-                )
-              }
-            >
-              {category}
-            </Tab>
-          ))}
-        </Tab.List>
-        <Tab.Panels className="-mt-1 z-10 relative" >
-          {Object.values(categories).map((posts, idx) => (
-            <Tab.Panel key={idx}
-            >
-              <LayoutContent style={{ height: 'calc(100vh - 170px)' }}>
-                <RecturringCharges />
-              {/* <ul>
+        <div className="w-full relative">
+          <Tab.Group>
+            <Tab.List className="flex space-x-1 rounded-xl relative z-0">
+              {Object.keys(categories).map((category) => (
+                <Tab
+                  key={category}
+                  className={({ selected }) =>
+                    classNames(
+                      'rounded-t-md py-2 px-4 font-medium leading-5 text-center',
+                      'ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2',
+                      selected
+                        ? 'bg-white text-primary z-10 border-x-2 border-transparent'
+                        : 'text-gray-800 bg-gray-300 hover:text-gray-900 border-x-2 border-t-2 border-gray-400'
+                    )
+                  }
+                >
+                  {category}
+                </Tab>
+              ))}
+            </Tab.List>
+            <Tab.Panels className="-mt-1 z-10 relative">
+              {Object.values(categories).map((posts, idx) => (
+                <Tab.Panel key={idx}>
+                  <LayoutContent style={{ height: 'calc(100vh - 170px)' }}>
+                    <RecturringCharges />
+                    {/* <ul>
                 {posts.map((post) => (
                   <li
                     key={post.id}
@@ -123,17 +119,15 @@ export default function Product() {
                   </li>
                 ))}
               </ul> */}
-              </LayoutContent>
-            </Tab.Panel>
-          ))}
-        </Tab.Panels>
-      </Tab.Group>
-    </div>
-          {/* <LayoutContent style={{ height: 'calc(100vh - 170px)' }}>
+                  </LayoutContent>
+                </Tab.Panel>
+              ))}
+            </Tab.Panels>
+          </Tab.Group>
+        </div>
+        {/* <LayoutContent style={{ height: 'calc(100vh - 170px)' }}>
             <RecturringCharges />
           </LayoutContent> */}
-         
-       
       </Layout>
     </>
   )

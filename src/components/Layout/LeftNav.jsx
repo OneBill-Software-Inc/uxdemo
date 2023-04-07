@@ -12,9 +12,6 @@ import {
   OBMonitorIcon,
   OBSettingsIcon,
   OBClapperboard,
-  OBMessagechartIcon,
-  OBBellIcon,
-  OBHelpcircleIcon
 } from '@/components/obIcons'
 export default function MainNav() {
   return (
@@ -23,23 +20,13 @@ export default function MainNav() {
         <div className="pb-4 mb-6 border-b border-dashed border-primary">
           <div className="flex flex-col justify-center space-y-3">
             <OBSearchIcon />
-           
           </div>
-          <div className="w-11 h-11 flex justify-center items-center rounded-full">
-          <OBMessagechartIcon/>
-        </div>
-        <div className="w-11 h-11 flex justify-center items-center rounded-full">
-          <OBBellIcon />
-        </div>
-          <div className="w-11 h-11 flex justify-center items-center rounded-full">
-          <OBHelpcircleIcon />
-        </div>
         </div>
         {/* <div className="w-11 h-11 flex justify-center items-center rounded-full">
           <OBMessagechartIcon/>
         </div> */}
         <div className="w-10 h-10 flex justify-center items-center rounded-full">
-          <OBClapperboard/>
+          <OBClapperboard />
         </div>
         <div className="w-10 h-10 flex justify-center items-center rounded-full">
           <OBCustomerIcon size={22} />
@@ -55,7 +42,7 @@ export default function MainNav() {
         </div>
 
         <div className="w-10 h-10 flex justify-center items-center rounded-full">
-         <OBServiceDeskIcon/>
+          <OBServiceDeskIcon />
         </div>
         <div className="w-10 h-10 flex justify-center items-center rounded-full">
           <OBLinechartIcon />
@@ -64,18 +51,18 @@ export default function MainNav() {
           <OBDataflowIcon />
         </div>
         <div className="w-10 h-10 flex justify-center items-center rounded-full">
-          <OBToolIcon/>
+          <OBToolIcon />
         </div>
       </div>
       <div className="flex flex-col pl-3 pb-4 w-full">
         <div className="w-10 h-10 flex justify-center items-center rounded-full">
-          <OBAnnouncementIcon/>
+          <OBAnnouncementIcon />
         </div>
         <div className="w-10 h-10 flex justify-center items-center rounded-full">
-          <OBMonitorIcon/>
+          <OBMonitorIcon />
         </div>
         <div className="w-10 h-10 flex justify-center items-center rounded-full">
-          <OBSettingsIcon/>
+          <OBSettingsIcon />
         </div>
       </div>
     </div>
