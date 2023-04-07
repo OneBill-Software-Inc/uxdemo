@@ -15,7 +15,7 @@ export default function App() {
           <Breadcrumbs />
           <Product />
         </div>
-        <div className='xl:w-80 hidden 2xl:block duration-150 bg-gray-100 border-t border-gray-300'></div>
+        <div className="xl:w-80 hidden 2xl:block duration-150 bg-gray-100 border-t border-gray-300"></div>
       </div>
     </div>
   )

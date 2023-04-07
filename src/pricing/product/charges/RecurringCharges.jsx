@@ -16,10 +16,7 @@ export default function RecturringCharges() {
             Refers to events or expenses that are one-time or irregular, rather
             than recurring or ongoing.
           </p>
-          <OBServiceDeskIcon size={32}
-            className="stroke-gray-600"
-            fill="fill-gray-600"
-          />
+         
         </div>
 
         <div className="grid grid-cols-3">
@@ -35,7 +32,6 @@ export default function RecturringCharges() {
                   Invoice Description
                 </legend>
                 <div className="p-8 text-gray-500">
-                  {' '}
                   Enter your charge invoice information{' '}
                 </div>
               </fieldset>

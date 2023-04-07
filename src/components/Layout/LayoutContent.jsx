@@ -1,10 +1,12 @@
-export default function LayoutContent({ children }) {
+export default function LayoutContent({ style, children, className, ...rest }) {
   return (
-    <div
-      className="h-full shadow-lg bg-white p-8 rounded-xl border flex-1 overflow-y-auto "
-      style={{ height: 'calc(100vh - 140px)' }}
+    <>
+    <div {...rest}
+      className={`${className ?? ''} h-full shadow-lg bg-white p-8 rounded-b-xl rounded-tr-xl border flex-1 overflow-y-auto`}
+      style={style ?? { height: 'calc(100vh - 140px)' }}
     >
       {children}
     </div>
+    </>
   )
 }

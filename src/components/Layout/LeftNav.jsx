@@ -11,7 +11,6 @@ export default function MainNav() {
         <div className="pb-4 mb-6 border-b border-dashed border-primary">
           <div className="flex flex-col justify-center space-y-3">
             <OBSearchIcon />
-           
           </div>
         </div>
 
