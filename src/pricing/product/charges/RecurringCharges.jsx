@@ -1,6 +1,8 @@
 import React from 'react'
 import Input from '@/components/Input'
 
+import { OBSearchIcon, OBServiceDeskIcon } from '@/components/obIcons'
+
 import SelectBox from '@/components/SelectBox'
 import SelectMBox from '@/components/SelectMBox'
 
@@ -11,9 +13,13 @@ export default function RecturringCharges() {
         <div className="mb-8 border-b border-gray-300 pb-4">
           <h5> Recurring Charge Info </h5>
           <p className="text-sm text-gray-600">
-            Refers to events or expenses that are one-time or
-            irregular, rather than recurring or ongoing.
+            Refers to events or expenses that are one-time or irregular, rather
+            than recurring or ongoing.
           </p>
+          <OBServiceDeskIcon size={32}
+            className="stroke-gray-600"
+            fill="fill-gray-600"
+          />
         </div>
 
         <div className="grid grid-cols-3">

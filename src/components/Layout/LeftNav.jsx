@@ -1,50 +1,24 @@
 import React from 'react'
-
+import {
+  OBSearchIcon,
+  OBServiceDeskIcon,
+  OBCustomerIcon,
+} from '@/components/obIcons'
 export default function MainNav() {
   return (
     <div className="w-16 flex flex-col bg-white">
       <div className="flex flex-col items-center w-full flex-1">
         <div className="pb-4 mb-6 border-b border-dashed border-primary">
-          <div className="w-6 h-6 flex justify-center items-center rounded-full">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              strokeWidth={1.2}
-              stroke="currentColor"
-              className="w-6 h-6 stroke-primary"
-            >
-              <path
-                d="M10.5 17C14.366 17 17.5 13.866 17.5 10C17.5 6.13401 14.366 3 10.5 3C6.63401 3 3.5 6.13401 3.5 10C3.5 13.866 6.63401 17 10.5 17Z"
-                opacity="0.2"
-                className="fill-primary"
-              />
-              <path
-                d="M21.5 21L15.5001 15M17.5 10C17.5 13.866 14.366 17 10.5 17C6.63401 17 3.5 13.866 3.5 10C3.5 6.13401 6.63401 3 10.5 3C14.366 3 17.5 6.13401 17.5 10Z"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
+          <div className="flex flex-col justify-center space-y-3">
+            <OBSearchIcon />
+           
           </div>
         </div>
+
         <div className="w-10 h-10 flex justify-center items-center rounded-full">
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            strokeWidth={1.2}
-            stroke="currentColor"
-            className="w-6 h-6 stroke-primary"
-          >
-            <g opacity="0.2" className="fill-primary">
-              <path d="M12.5 13.5C14.7091 13.5 16.5 11.7091 16.5 9.5C16.5 7.29086 14.7091 5.5 12.5 5.5C10.2909 5.5 8.5 7.29086 8.5 9.5C8.5 11.7091 10.2909 13.5 12.5 13.5Z" />
-              <path d="M16.5 17H8.5C6.29086 17 4.5 18.7909 4.5 21C4.5 21.5523 4.94772 22 5.5 22H19.5C20.0523 22 20.5 21.5523 20.5 21C20.5 18.7909 18.7091 17 16.5 17Z" />
-            </g>
-            <path
-              d="M4.50002 21.8174C5.1026 22 5.91649 22 7.3 22H17.7C19.0835 22 19.8974 22 20.5 21.8174M4.50002 21.8174C4.37082 21.7783 4.25133 21.7308 4.13803 21.673C3.57354 21.3854 3.1146 20.9265 2.82698 20.362C2.5 19.7202 2.5 18.8802 2.5 17.2V6.8C2.5 5.11984 2.5 4.27976 2.82698 3.63803C3.1146 3.07354 3.57354 2.6146 4.13803 2.32698C4.77976 2 5.61984 2 7.3 2H17.7C19.3802 2 20.2202 2 20.862 2.32698C21.4265 2.6146 21.8854 3.07354 22.173 3.63803C22.5 4.27976 22.5 5.11984 22.5 6.8V17.2C22.5 18.8802 22.5 19.7202 22.173 20.362C21.8854 20.9265 21.4265 21.3854 20.862 21.673C20.7487 21.7308 20.6292 21.7783 20.5 21.8174M4.50002 21.8174C4.50035 21.0081 4.50521 20.5799 4.57686 20.2196C4.89249 18.6329 6.13288 17.3925 7.71964 17.0769C8.10603 17 8.57069 17 9.5 17H15.5C16.4293 17 16.894 17 17.2804 17.0769C18.8671 17.3925 20.1075 18.6329 20.4231 20.2196C20.4948 20.5799 20.4996 21.0081 20.5 21.8174M16.5 9.5C16.5 11.7091 14.7091 13.5 12.5 13.5C10.2909 13.5 8.5 11.7091 8.5 9.5C8.5 7.29086 10.2909 5.5 12.5 5.5C14.7091 5.5 16.5 7.29086 16.5 9.5Z"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
+          <OBCustomerIcon size={22} />
         </div>
+
         <div className="w-10 h-10 flex justify-center items-center rounded-full">
           <svg
             viewBox="0 0 24 24"
@@ -65,7 +39,7 @@ export default function MainNav() {
           </svg>
         </div>
 
-        <div className="w-10 h-10 my-2 flex justify-center items-center rounded-full bg-primary/80 ring-[10px] ring-primary/20 scale-75">
+        <div className=" w-10 h-10 my-2 flex justify-center items-center rounded-full bg-primary/80 ring-[10px] ring-primary/20 scale-75">
           <svg
             viewBox="0 0 24 24"
             fill="none"

@@ -11,7 +11,6 @@ export default function CreateProduct() {
         <div className="mb-8 border-b border-gray-300 pb-4">
           <h5> Non-recurring Charge Info </h5>
           <p className="text-sm text-gray-600">
-           
             Non-recurring" refers to events or expenses that are one-time or
             irregular, rather than recurring or ongoing.{' '}
           </p>
