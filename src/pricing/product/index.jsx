@@ -5,7 +5,7 @@ import Layout from '@/components/Layout'
 import SelectBox from '@/components/SelectBox'
 import LayoutContent from '@/components/Layout/LayoutContent'
 
-import RecturringCharges from './charges/RecurringCharges'
+// import RecturringCharges from './charges/RecurringCharges'
 
 import './product.css'
 
@@ -65,7 +65,7 @@ export default function Product() {
   })
   return (
     <>
-      <Layout pageLeftNav={<LeftNN />}>
+      <Layout pageLeftNav={<LeftCardNav />}>
         <div className="w-full relative">
           <Tab.Group>
             <Tab.List className="flex space-x-1 rounded-xl relative z-0">
@@ -90,8 +90,7 @@ export default function Product() {
               {Object.values(categories).map((posts, idx) => (
                 <Tab.Panel key={idx}>
                   <LayoutContent style={{ height: 'calc(100vh - 170px)' }}>
-                    <RecturringCharges />
-                    {/* <ul>
+                    <ul>
                 {posts.map((post) => (
                   <li
                     key={post.id}
@@ -118,7 +117,7 @@ export default function Product() {
                     />
                   </li>
                 ))}
-              </ul> */}
+              </ul>
                   </LayoutContent>
                 </Tab.Panel>
               ))}
@@ -133,7 +132,7 @@ export default function Product() {
   )
 }
 
-const LeftNN = () => {
+const LeftCardNav = () => {
   return (
     <div className="flex flex-col w-full h-full">
       <div className="p-4 flex-1 h-full">
