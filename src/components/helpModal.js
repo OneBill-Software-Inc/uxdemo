@@ -53,12 +53,23 @@ export default function MyModal({ children,className }) {
                                 leaveTo="opacity-0 scale-95"
                             >
                                 <Dialog.Panel className="xl:w-10/12 w-full min-h-[calc(100vh-5rem)] transform text-left align-middle shadow-xl transition-all">
-                                    <div className='absolute -right-2 -top-2 w-8 h-8 rounded-full flex items-center justify-center text-xl bg-red-500 text-white cursor-pointer'  onClick={closeModal}> X </div>
+                                    <div className='absolute -right-10 top-0 w-8 h-8 rounded-full flex items-center justify-center text-xl bg-red-500 text-white cursor-pointer'  onClick={closeModal}> X </div>
                                     <div className="flex w-full min-h-[calc(100vh-5rem)] rounded-xl bg-white overflow-hidden">
 
                                         <div className='w-64 md:w-1/6 p-6 min-w-[250px] bg-slate-100 border-r border-gray-400 md:block hidden'>Left</div>
-                                        <div className='lg:p-10 p-6 flex-1 bg-white'>
-                                            <div className='search'>
+                                        <div className='flex-1 bg-white flex flex-col h-[calc(100vh-82px)]'>
+                                            
+                                            <div className='help-content overflow-auto lg:p-6 p-3 flex-1'>
+                                                <div className='page-title mb-3'>
+                                                    <h3 className='text-gray-800 text-2xl'> Hi, OneBill</h3>
+                                                    <p className='text-sm text-gray-600'> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                                </div>
+
+                                                <div> sdfas</div>
+
+                                            </div>
+
+                                            <div className='search p-2'>
                                                 <div className="relative mt-1 rounded-md shadow-sm">
                                                     <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
                                                         <MagnifyingGlassIcon className="h-5 w-5 text-gray-400" aria-hidden="true" />
@@ -66,55 +77,10 @@ export default function MyModal({ children,className }) {
                                                     <input
                                                         type="search"
 
-                                                        className="block w-full rounded-full border-gray-300 pl-10 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                                                        className="block w-full rounded-md  border-gray-300 pl-10 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                                                         placeholder="Search"
                                                     />
                                                 </div>
-
-                                            </div>
-                                            <div className='help-content'>
-                                                <div className='page-title py-6 mb-3'>
-                                                    <h3 className='text-gray-800 text-2xl'> Hi, OneBill</h3>
-                                                    <p className='text-sm text-gray-600'> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                                                </div>
-
-                                            <div className='product-video grid 2xl:grid-cols-5 xl:grid-cols-4 lg:grid-cols-3 grid-cols-2  gap-5 overflow-y-auto max-h-[calc(100vh-20rem)] pr-8'>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                            <div className='h-48 border border-gray-300 rounded-md'/>
-                                      
-                                            </div>
-
-
 
                                             </div>
                                         </div>
