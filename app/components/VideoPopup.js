@@ -28,13 +28,7 @@ const VideoPopup = () => {
 
             {/* YouTube Video */}
             <div className="aspect-w-16 aspect-h-16 h-full w-full">
-              <iframe
-                src="https://www.youtube.com/embed/_-8ohMvR6AY?si=v8JQwGJlrPvB46x1?autoplay=1" // Replace with your video ID
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="w-full h-full"
-              ></iframe>
+              <iframe  className="w-full h-full"  src="https://www.youtube.com/embed/AFWrHRwaItw?si=IuSlhQgSLMYdUHSB" title="Create Subscriber" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
           </div>
         </div>
