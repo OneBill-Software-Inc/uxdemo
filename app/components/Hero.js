@@ -19,7 +19,7 @@ export default function Hero() {
           </defs>
           <rect fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)" width="100%" height="100%" strokeWidth={0} />
         </svg>
-        <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
+        <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:pt-40 lg:pb-20">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:shrink-0 lg:pt-8">
             <img
               alt="Your Company"
@@ -42,6 +42,15 @@ export default function Hero() {
             <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
             Simplify billing, automate subscriptions, and accelerate revenue growth with OneBill. From usage-based pricing to seamless integrations, our all-in-one platform empowers businesses to scale effortlessly.
             </p>
+            <div className="pt-8">
+            <img
+                  alt="App screenshot"
+                  src="./obkh.png"
+                  width={2432}
+                  height={1442}
+                  
+                />
+            </div>
             <div className="absolute inset-x-0 top-3/4 -z-10 flex -translate-y-1/2 justify-center overflow-hidden [mask-image:radial-gradient(50%_45%_at_50%_55%,white,transparent)]">
             <svg aria-hidden="true" className="h-[40rem] w-[80rem] flex-none stroke-gray-200">
               <defs>
