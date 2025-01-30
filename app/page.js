@@ -97,7 +97,11 @@ export default function Home() {
 
     <div className="bg-gray-50 py-8">
     <div className="mx-auto max-w-7xl px-6 lg:px-8">
-      <div>Initial setup steps</div>
+     <div className='pb-6'>
+     <h1 className="text-pretty text-xl font-semibold text-gray-900">
+            Get started in just a few simple steps and unlock the power of seamless billing and revenue management.
+            </h1>
+     </div>
     <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
       {set.map((card) => (
         <div

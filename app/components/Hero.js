@@ -19,7 +19,7 @@ export default function Hero() {
           </defs>
           <rect fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)" width="100%" height="100%" strokeWidth={0} />
         </svg>
-        <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:pt-40 lg:pb-20">
+        <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:pt-32 lg:pb-20">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:shrink-0 lg:pt-8">
             <img
               alt="Your Company"
@@ -36,13 +36,13 @@ export default function Hero() {
                 </span>
               </a>
             </div>
-            <h1 className="mt-10 text-pretty text-2xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+            <h1 className="mt-10 text-pretty text-xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
             Kickstart Your Journey with OneBill
             </h1>
-            <p className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
+            <p className="mt-3 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">
             Simplify billing, automate subscriptions, and accelerate revenue growth with OneBill. From usage-based pricing to seamless integrations, our all-in-one platform empowers businesses to scale effortlessly.
             </p>
-            <div className="pt-8">
+            <div className="pt-16">
             <img
                   alt="App screenshot"
                   src="./obkh.png"
