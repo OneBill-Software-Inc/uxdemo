@@ -2,9 +2,9 @@ export default function BentoGrid() {
     return (
       <div className="bg-gray-50 py-24 sm:py-32">
         <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
-          <h2 className="text-center text-base/7 font-semibold text-indigo-600">Deploy faster</h2>
-          <p className="mx-auto mt-2 max-w-lg text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl">
-            Everything you need to deploy your app
+          <h2 className="text-center text-base/7 font-semibold text-indigo-600">Unlock New Possibilities with Our Latest Feature</h2>
+          <p className="mx-auto mt-2 text-balance text-center text-3xl font-semibold tracking-tight text-gray-950 max-w-6xl">
+          Stay ahead with cutting-edge enhancements designed to boost efficiency, improve security, and deliver seamless user experiences.
           </p>
           <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2">
             <div className="relative lg:row-span-2">
@@ -15,14 +15,14 @@ export default function BentoGrid() {
                     Mobile friendly
                   </p>
                   <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
+                  Experience Seamless Performance on Any Device
                   </p>
                 </div>
                 <div className="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
                   <div className="absolute inset-x-10 bottom-0 top-10 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-gray-700 bg-gray-900 shadow-2xl">
                     <img
                       className="size-full object-cover object-top"
-                      src="https://tailwindui.com/plus/img/component-images/bento-03-mobile-friendly.png"
+                      src="./selfCafre_dashboard.png"
                       alt=""
                     />
                   </div>
@@ -36,7 +36,7 @@ export default function BentoGrid() {
                 <div className="px-8 pt-8 sm:px-10 sm:pt-10">
                   <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">Subscriber <strong>360 View</strong></p>
                   <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit maiores impedit.
+                  Get a holistic view of subscriber interactions, behaviors, and preferences in one centralized dashboard.
                   </p>
                 </div>
                 <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
@@ -55,7 +55,7 @@ export default function BentoGrid() {
                 <div className="px-8 pt-8 sm:px-10 sm:pt-10">
                   <p className="mt-2 text-lg font-medium tracking-tight text-gray-950 max-lg:text-center">Security</p>
                   <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                    Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi.
+                  Protect your data with enterprise-grade security measures, encryption, and compliance standards.
                   </p>
                 </div>
                 <div className="flex flex-1 items-center [container-type:inline-size] max-lg:py-6 lg:pb-2">
@@ -76,7 +76,7 @@ export default function BentoGrid() {
                     Powerful APIs
                   </p>
                   <p className="mt-2 max-w-lg text-sm/6 text-gray-600 max-lg:text-center">
-                    Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget sem sodales gravida.
+                  Connect, extend, and automate with developer-friendly APIs that scale with your needs.
                   </p>
                 </div>
                 <div className="relative min-h-[30rem] w-full grow">
