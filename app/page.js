@@ -13,7 +13,7 @@ const set = [
   {
     id: 1,
     title: 'Branding',
-    text: 'Lorem ipsum dolor sit amet consectetur. Vitae ultrices tempor ut turpis lectus potenti massa laoreet. Nunc pharetra lacinia lectus felis vitae mattis in. Sem ultricies et at vulputate laoreet. Tellus leo  ',
+    text: 'Dynamic Branding with User Theme Colors Ensure a seamless user experience by automatically adapting the branding elements—buttons, text, and backgrounds—to match the user’s theme color.',
     imgUrl: 'https://1803444.fs1.hubspotusercontent-na1.net/hub/1803444/hubfs/IntegrationEventTempleSquare.png',   
     
     icons:
