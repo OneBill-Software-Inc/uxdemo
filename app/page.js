@@ -11,6 +11,33 @@ import { TfiShoppingCartFull, TfiPanel,TfiPaintBucket, TfiPackage, TfiCreditCard
 const set = [
   
   {
+    id: 1,
+    title: 'Branding',
+    text: 'Lorem ipsum dolor sit amet consectetur. Vitae ultrices tempor ut turpis lectus potenti massa laoreet. Nunc pharetra lacinia lectus felis vitae mattis in. Sem ultricies et at vulputate laoreet. Tellus leo  ',
+    imgUrl: 'https://1803444.fs1.hubspotusercontent-na1.net/hub/1803444/hubfs/IntegrationEventTempleSquare.png',   
+    
+    icons:
+      <TfiPaintBucket color='#343747' size={32} />,
+  },
+  {
+    id: 7,
+    title: 'Configuration',
+    text: 'Lorem ipsum dolor sit amet consectetur. Vitae ultrices tempor ut turpis lectus potenti massa laoreet. Nunc pharetra lacinia lectus felis vitae mattis in. Sem ultricies et at vulputate laoreet. Tellus leo  ',
+    imgUrl: 'https://1803444.fs1.hubspotusercontent-na1.net/hub/1803444/hubfs/2023-website-visuals/ChannelManagerSquare.png',
+    icons:
+    <LuSettings strokeWidth={1.4} color='#343747' size={32}/>,
+  },
+  
+  {
+    id: 3,
+    title: 'Templates',
+    text: 'Lorem ipsum dolor sit amet consectetur. Vitae ultrices tempor ut turpis lectus potenti massa laoreet. Nunc pharetra lacinia lectus felis vitae mattis in. Sem ultricies et at vulputate laoreet. Tellus leo  ',
+    // imgUrl: 'https://1803444.fs1.hubspotusercontent-na1.net/hub/1803444/hubfs/2023-website-visuals/IndirectBookingsMd.png',
+    imgUrl: 'https://1803444.fs1.hubspotusercontent-na1.net/hub/1803444/hubfs/2023-website-visuals/InstantBookingSm.png',
+    icons:
+    <LuCassetteTape strokeWidth={1.2} color='#343747' size={32}/>,
+  },
+  {
     id: 2,
     title: 'Products',
     text: 'Lorem ipsum dolor sit amet consectetur. Vitae ultrices tempor ut turpis lectus potenti massa laoreet. Nunc pharetra lacinia lectus felis vitae mattis in. Sem ultricies et at vulputate laoreet. Tellus leo  ',
@@ -18,7 +45,6 @@ const set = [
     icons:
     <TfiPackage color='#343747' size={32}/>,
   },
-  
   {
     id: 4,
     title: 'Subscribers',
@@ -59,32 +85,6 @@ const set = [
     icons:
     <LuChartNoAxesCombined strokeWidth={1.4} color='#343747' size={32}/>,
   } ,
-  {
-    id: 7,
-    title: 'Configuration',
-    text: 'Lorem ipsum dolor sit amet consectetur. Vitae ultrices tempor ut turpis lectus potenti massa laoreet. Nunc pharetra lacinia lectus felis vitae mattis in. Sem ultricies et at vulputate laoreet. Tellus leo  ',
-    imgUrl: 'https://1803444.fs1.hubspotusercontent-na1.net/hub/1803444/hubfs/2023-website-visuals/ChannelManagerSquare.png',
-    icons:
-    <LuSettings strokeWidth={1.4} color='#343747' size={32}/>,
-  },
-  {
-    id: 1,
-    title: 'Branding',
-    text: 'Lorem ipsum dolor sit amet consectetur. Vitae ultrices tempor ut turpis lectus potenti massa laoreet. Nunc pharetra lacinia lectus felis vitae mattis in. Sem ultricies et at vulputate laoreet. Tellus leo  ',
-    imgUrl: 'https://1803444.fs1.hubspotusercontent-na1.net/hub/1803444/hubfs/IntegrationEventTempleSquare.png',   
-    
-    icons:
-      <TfiPaintBucket color='#343747' size={32} />,
-  },
-  {
-    id: 3,
-    title: 'Templates',
-    text: 'Lorem ipsum dolor sit amet consectetur. Vitae ultrices tempor ut turpis lectus potenti massa laoreet. Nunc pharetra lacinia lectus felis vitae mattis in. Sem ultricies et at vulputate laoreet. Tellus leo  ',
-    // imgUrl: 'https://1803444.fs1.hubspotusercontent-na1.net/hub/1803444/hubfs/2023-website-visuals/IndirectBookingsMd.png',
-    imgUrl: 'https://1803444.fs1.hubspotusercontent-na1.net/hub/1803444/hubfs/2023-website-visuals/InstantBookingSm.png',
-    icons:
-    <LuCassetteTape strokeWidth={1.2} color='#343747' size={32}/>,
-  }
   
 ]
 export default function Home() {
