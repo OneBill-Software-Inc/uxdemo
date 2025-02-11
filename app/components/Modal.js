@@ -3,12 +3,13 @@
 import { useState } from "react";
 import { Dialog, DialogBackdrop, DialogPanel } from "@headlessui/react";
 import { LuYoutube } from "react-icons/lu";
+import { FaCirclePlay } from "react-icons/fa6";
 
 export default function ModalVideo({ videoId }) {
   const [open, setOpen] = useState(false);
 
   return (
-    <>
+    <div>
       <Dialog open={open} onClose={setOpen} className="relative z-10">
         <DialogBackdrop
           transition
@@ -60,11 +61,10 @@ export default function ModalVideo({ videoId }) {
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="max-w-sm flex gap-1 items-center bg-sky-100 border border-sky-400 text-sky-700 px-2 py-0  text-sm rounded-md overflow-hidden cursor-pointer"
+        className="text-gray-600 ring-4 ring-black/30 rounded-full opacity-50 group-hover:opacity-100 transition-all hover:ring-red-600/30 hover:scale-105 hover:text-red-600"
       >
-        <LuYoutube size={18} />
-        Video
+        <FaCirclePlay size={48} />
       </button>
-    </>
+    </div>
   );
 }

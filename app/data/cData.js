@@ -11,7 +11,7 @@ const cards = [
     videoId: 'aanY6Fbj6lo',
     
     icons:
-      <TfiPaintBucket color='#343747' size={26} />,
+      <TfiPaintBucket className="text-red-900" size={26} />,
   },
   {
     id: 7,
