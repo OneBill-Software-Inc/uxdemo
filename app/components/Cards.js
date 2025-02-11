@@ -29,11 +29,11 @@ export default function Cards() {
               <div className="h-40 relative z-0 ">
                 <div className="absolute inset-0 flex justify-center items-center bg-gradient-to-b from-white to-transparent ">
                   <div className="relative">
-                    <ModalVideo videoId={card.videoId} />
+                    <ModalVideo videoId={card.videoId} title={card.title} />
                   </div>
                 </div>
                 <img
-                  className="w-full max-lg:max-w-lg  -mt-4"
+                  className="w-full max-lg:max-w-lg -mt-4"
                   src={card.imgUrl}
                   alt=""
                 />

@@ -4,8 +4,9 @@ import { useState } from "react";
 import { Dialog, DialogBackdrop, DialogPanel } from "@headlessui/react";
 import { LuYoutube } from "react-icons/lu";
 import { FaCirclePlay } from "react-icons/fa6";
+import MuxPlayer from "@mux/mux-player-react";
 
-export default function ModalVideo({ videoId }) {
+export default function ModalVideo({ videoId, title }) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -43,15 +44,29 @@ export default function ModalVideo({ videoId }) {
               className="relative transform overflow-hidden rounded-lg bg-white px-4 pt-5 pb-4 text-left shadow-xl transition-all data-closed:translate-y-4 data-closed:opacity-0 data-enter:duration-300 data-enter:ease-out data-leave:duration-200 data-leave:ease-in sm:my-8 sm:w-full sm:max-w-7xl sm:p-6 data-closed:sm:translate-y-0 data-closed:sm:scale-95"
             >
               <div className="aspect-w-16 aspect-h-16 h-[80vh] w-full">
-                <iframe
+                {/* <iframe
                   className="w-full h-full"
-                  src={`https://www.youtube.com/embed/${videoId}`}
+                  src={`https://player.mux.com/${videoId}`}
                   title="Create Subscriber"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerPolicy="strict-origin-when-cross-origin"
                   allowFullScreen
-                ></iframe>
+                  autoPlay
+                ></iframe> */}
+
+                <MuxPlayer
+                  className="w-full h-full"
+                  playbackId={`${videoId}`}
+                  loading="viewport"
+                  metadataVideoTitle={`${title}`}
+                  primary-color="#ffffff"
+                  secondary-color="#000000"
+                  accent-color="#fa50b5"
+                  autoPlay="true"
+                  thumbnailTime={5}
+                  allowfullscreen="true"
+                />
               </div>
             </DialogPanel>
           </div>
