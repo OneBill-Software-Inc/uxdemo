@@ -16,7 +16,7 @@ const cards = [
   {
     id: 7,
     title: 'Configuration',
-    text: 'Lorem ipsum dolor sit amet consectetur. Vitae ultrices tempor ut turpis lectus potenti massa laoreet. Nunc pharetra lacinia lectus felis vitae mattis in. Sem ultricies et at vulputate laoreet. Tellus leo  ',
+    text: '--  ',
     imgUrl: 'https://1803444.fs1.hubspotusercontent-na1.net/hub/1803444/hubfs/2023-website-visuals/ChannelManagerSquare.png',
     videoId: 'isWtrV0ntHE',
     icons:
@@ -25,8 +25,8 @@ const cards = [
   
   {
     id: 3,
-    title: 'Templates',
-    text: 'Lorem ipsum dolor sit amet consectetur. Vitae ultrices tempor ut turpis lectus potenti massa laoreet. Nunc pharetra lacinia lectus felis vitae mattis in. Sem ultricies et at vulputate laoreet. Tellus leo  ',
+    title: 'Invoice Template',
+    text: 'Configure the logo to display on the invoice, choose the branding colors to display on the invoice, and add a business remittance address to show on the invoice.',
     imgUrl: 'https://1803444.fs1.hubspotusercontent-na1.net/hub/1803444/hubfs/2023-website-visuals/InstantBookingSm.png',
     videoId: 'asQITpOOSNOFuTjgfmwCOK1DZIOSafIuCaKZxRoWpZ8',
     icons:
@@ -35,7 +35,7 @@ const cards = [
   {
     id: 2,
     title: 'Products',
-    text: 'Lorem ipsum dolor sit amet consectetur. Vitae ultrices tempor ut turpis lectus potenti massa laoreet. Nunc pharetra lacinia lectus felis vitae mattis in. Sem ultricies et at vulputate laoreet. Tellus leo  ',
+    text: 'Change description: Products are any product/service that you offer to your end customers. In this video, you can see how to set up a new product and define pricing for the same. ',
     imgUrl: 'https://1803444.fs1.hubspotusercontent-na1.net/hub/1803444/hubfs/2023-website-visuals/OrderManagementSquare.png',
     videoId: 'Lh1STpZ023QiDkTfSLgVVphXdzGdEIg00F22dNVRAse4c',
     icons:
@@ -44,7 +44,7 @@ const cards = [
   {
     id: 4,
     title: 'Subscribers',
-    text: 'Lorem ipsum dolor sit amet consectetur. Vitae ultrices tempor ut turpis lectus potenti massa laoreet. Nunc pharetra lacinia lectus felis vitae mattis in. Sem ultricies et at vulputate laoreet. Tellus leo  ',
+    text: 'Subscribers are your end customers. In this video, you can see how to set up a new subscriber and the information that you need to provide for the same. ',
     imgUrl: 'https://1803444.fs1.hubspotusercontent-na1.net/hub/1803444/hubfs/2023-website-visuals/CustomerManagementSquare.png',
     videoId: 'hudldbeVpDzNCIyMVkeJbSjYj3RvpRqDT7zUCYG5NtA',
     icons:
@@ -52,8 +52,8 @@ const cards = [
   },
   {
     id: 5,
-    title: 'Orders Management',
-    text: 'Lorem ipsum dolor sit amet consectetur. Vitae ultrices tempor ut turpis lectus potenti massa laoreet. Nunc pharetra lacinia lectus felis vitae mattis in. Sem ultricies et at vulputate laoreet. Tellus leo  ',
+    title: 'Order Management',
+    text: 'Order is a transaction of purchase of one or more products/plans for your end subscriber. In this video, you can see how to add a new subscription for your subscriber.',
     imgUrl: 'https://1803444.fs1.hubspotusercontent-na1.net/hub/1803444/hubfs/2023-website-visuals/RFPLg.png',
     videoId: 'F6PiyofGWjmFJtakx2JIidCacte5Dfhr00Z301AzPtd01s',
     icons:
@@ -62,7 +62,7 @@ const cards = [
   {
     id: 6,
     title: 'Invoice',
-    text: 'Lorem ipsum dolor sit amet consectetur. Vitae ultrices tempor ut turpis lectus potenti massa laoreet. Nunc pharetra lacinia lectus felis vitae mattis in. Sem ultricies et at vulputate laoreet. Tellus leo  ',
+    text: '--- ',
     imgUrl: 'https://1803444.fs1.hubspotusercontent-na1.net/hub/1803444/hubfs/2023-website-visuals/DirectBookingMd.png',
     videoId: '3xNVTIBGjC3H02q30101f1WMGKlasayZJRcoQ00wj00M4BBA',
     icons:
@@ -71,7 +71,7 @@ const cards = [
   {
     id: 8,
     title: 'Payments',
-    text: 'Lorem ipsum dolor sit amet consectetur. Vitae ultrices tempor ut turpis lectus potenti massa laoreet. Nunc pharetra lacinia lectus felis vitae mattis in. Sem ultricies et at vulputate laoreet. Tellus leo  ',
+    text: '-- ',
    imgUrl: 'https://1803444.fs1.hubspotusercontent-na1.net/hub/1803444/hubfs/2023-website-visuals/HoldDateMd.png',
    videoId: '3xNVTIBGjC3H02q30101f1WMGKlasayZJRcoQ00wj00M4BBA',
    icons:
@@ -80,7 +80,7 @@ const cards = [
   {
     id: 9,
     title: 'Reports',
-    text: 'Lorem ipsum dolor sit amet consectetur. Vitae ultrices tempor ut turpis lectus potenti massa laoreet. Nunc pharetra lacinia lectus felis vitae mattis in. Sem ultricies et at vulputate laoreet. Tellus leo  ',
+    text: '-- ',
    imgUrl: 'https://1803444.fs1.hubspotusercontent-na1.net/hub/1803444/hubfs/2023-website-visuals/AnalyticsSquare.png',
    videoId: 'aanY6Fbj6lo',
    icons:
