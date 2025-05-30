@@ -27,12 +27,12 @@ export default function Hero() {
               className="h-11"
             />
             <div className="mt-24 sm:mt-32 lg:mt-16">
-              <a href="#" className="inline-flex space-x-6">
+              <a href="https://www.help.onebillsoftware.com/docs/bss/release-7-x/7-20/" target="_blank" className="inline-flex space-x-6">
                 <span className="rounded-full bg-indigo-600/10 px-3 py-1 text-sm/6 font-semibold text-indigo-600 ring-1 ring-inset ring-indigo-600/10">
                   What's new
                 </span>
                 <span className="inline-flex items-center space-x-2 text-sm/6 font-medium text-gray-600">
-                  <span>Just shipped v17.0</span>
+                  <span>Just shipped v7.20</span>
                 </span>
               </a>
             </div>
