@@ -41,21 +41,21 @@ export default function ModalVideo({ videoId, title }) {
             </button>
             <DialogPanel
               transition
-              className="relative transform overflow-hidden rounded-lg bg-white px-4 pt-5 pb-4 text-left shadow-xl transition-all data-closed:translate-y-4 data-closed:opacity-0 data-enter:duration-300 data-enter:ease-out data-leave:duration-200 data-leave:ease-in sm:my-8 sm:w-full sm:max-w-7xl sm:p-6 data-closed:sm:translate-y-0 data-closed:sm:scale-95"
+              className="relative transform overflow-hidden  rounded-lg bg-white text-left shadow-xl transition-all data-closed:translate-y-4 data-closed:opacity-0 data-enter:duration-300 data-enter:ease-out data-leave:duration-200 data-leave:ease-in sm:w-full sm:max-w-7xl data-closed:sm:translate-y-0 data-closed:sm:scale-95"
             >
               <div className="aspect-w-16 aspect-h-16 h-[80vh] w-full">
-                {/* <iframe
+                <iframe
                   className="w-full h-full"
-                  src={`https://player.mux.com/${videoId}`}
+                  src={`https://onebillsoftware.storylane.io/demo/${videoId}`}
                   title="Create Subscriber"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerPolicy="strict-origin-when-cross-origin"
                   allowFullScreen
                   autoPlay
-                ></iframe> */}
+                ></iframe>
 
-                <MuxPlayer
+                {/* <MuxPlayer
                   className="w-full h-full"
                   playbackId={`${videoId}`}
                   loading="viewport"
@@ -66,7 +66,7 @@ export default function ModalVideo({ videoId, title }) {
                   autoPlay="true"
                   thumbnailTime={5}
                   allowfullscreen="true"
-                />
+                /> */}
               </div>
             </DialogPanel>
           </div>

@@ -21,6 +21,7 @@ export default function Cards() {
                 <div className="text-md font-bold text-gray-900 gap-2 flex items-center bg-gradient-to-b from-slate-900 to-orange-700 bg-clip-text text-transparent">
                   {card.icons} {card.title}
                 </div>
+                <div className=" absolute top-0 right-0 w-8 h-8 bg-gray-700 text-white text-xs font-bold rounded-bl-md flex items-center justify-center">{card.id}</div>
               </div>
               <div className=" relative z-10">
                 <p className="text-sm text-gray-500">{card.text}</p>
