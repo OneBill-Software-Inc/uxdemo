@@ -6,7 +6,7 @@ export default function Cards() {
     <div className="bg-gray-50 py-8">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="pb-6">
-          <h1 className="text-pretty text-xl font-semibold text-gray-900">
+          <h1 className="text-pretty text-base pb-6 text-gray-900">
             Get started in just a few simple steps and unlock the power of
             seamless billing and revenue management.
           </h1>
