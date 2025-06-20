@@ -15,10 +15,10 @@ export default function Cards() {
           {cards.map((card) => (
             <div
               key={card.id}
-              className="group relative overflow-hidden space-y-3 rounded-lg ring-8 ring-black/5 border border-gray-300 bg-white px-6 pt-8 shadow-sm hover:shadow-md transition-all focus-within:ring-2 focus-within:ring-orange-500 focus-within:ring-offset-2 hover:border-gray-400/60"
+              className="group relative overflow-hidden space-y-3 rounded-lg ring-8 ring-black/5 border border-gray-300 bg-white px-6 pt-8 shadow-xs hover:shadow-md transition-all focus-within:ring-2 focus-within:ring-orange-500 focus-within:ring-offset-2 hover:border-gray-400/60"
             >
               <div className="flex justify-between">
-                <div className="text-md font-bold text-gray-900 gap-2 flex items-center bg-gradient-to-b from-slate-900 to-orange-700 bg-clip-text text-transparent">
+                <div className="text-md font-bold text-gray-900 gap-2 flex items-center bg-linear-to-b from-slate-900 to-orange-700 bg-clip-text text-transparent">
                   {card.icons} {card.title}
                 </div>
                 <div className=" absolute top-0 right-0 w-8 h-8 bg-gray-700 text-white text-xs font-bold rounded-bl-md flex items-center justify-center">{card.id}</div>
@@ -28,7 +28,7 @@ export default function Cards() {
               </div>
 
               <div className="h-40 relative z-0 ">
-                <div className="absolute inset-0 flex justify-center items-center bg-gradient-to-b from-white to-transparent ">
+                <div className="absolute inset-0 flex justify-center items-center bg-linear-to-b from-white to-transparent ">
                   <div className="relative">
                     <ModalVideo videoId={card.videoId} title={card.title} />
                   </div>

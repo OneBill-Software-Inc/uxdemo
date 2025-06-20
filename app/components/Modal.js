@@ -22,7 +22,7 @@ export default function ModalVideo({ videoId, title }) {
             <button
               type="button"
               onClick={() => setOpen(false)}
-              className="inline-flex absolute top-3 right-3 bg-white p-2 rounded-full  text-red-600 shadow-xs hover:bg-red-500 hover:translate-y-1 transition-all hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
+              className="inline-flex absolute top-3 right-3 bg-white p-2 rounded-full  text-red-600 shadow-2xs hover:bg-red-500 hover:translate-y-1 transition-all hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@ export default function ModalVideo({ videoId, title }) {
             </button>
             <DialogPanel
               transition
-              className="relative transform overflow-hidden  rounded-lg bg-white text-left shadow-xl transition-all data-closed:translate-y-4 data-closed:opacity-0 data-enter:duration-300 data-enter:ease-out data-leave:duration-200 data-leave:ease-in sm:w-full sm:max-w-7xl data-closed:sm:translate-y-0 data-closed:sm:scale-95"
+              className="relative transform overflow-hidden  rounded-lg bg-white text-left shadow-xl transition-all data-closed:translate-y-4 data-closed:opacity-0 data-enter:duration-300 data-enter:ease-out data-leave:duration-200 data-leave:ease-in sm:w-full sm:max-w-7xl sm:data-closed:translate-y-0 sm:data-closed:scale-95"
             >
               <div className="aspect-w-16 aspect-h-16 h-[80vh] w-full">
                 <iframe

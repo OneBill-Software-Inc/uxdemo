@@ -3,7 +3,7 @@ export default function Hero() {
         <div className="relative isolate overflow-hidden bg-white">
         <svg
           aria-hidden="true"
-          className="absolute inset-0 -left-2 -z-10 size-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+          className="absolute inset-0 -left-2 -z-10 size-full stroke-gray-200 mask-[radial-gradient(100%_100%_at_top_right,white,transparent)]"
         >
           <defs>
             <pattern
@@ -51,8 +51,8 @@ export default function Hero() {
                   
                 />
             </div>
-            <div className="absolute inset-x-0 top-3/4 -z-10 flex -translate-y-1/2 justify-center overflow-hidden [mask-image:radial-gradient(50%_45%_at_50%_55%,white,transparent)]">
-            <svg aria-hidden="true" className="h-[40rem] w-[80rem] flex-none stroke-gray-200">
+            <div className="absolute inset-x-0 top-3/4 -z-10 flex -translate-y-1/2 justify-center overflow-hidden mask-[radial-gradient(50%_45%_at_50%_55%,white,transparent)]">
+            <svg aria-hidden="true" className="h-160 w-7xl flex-none stroke-gray-200">
               <defs>
                 <pattern
                   x="50%"
@@ -82,7 +82,7 @@ export default function Hero() {
                   src="./ProductListingPage_1.png"
                   width={2432}
                   height={1442}
-                  className="w-[64rem] rounded-md shadow-2xl ring-1 ring-gray-900/10"
+                  className="w-5xl rounded-md shadow-2xl ring-1 ring-gray-900/10"
                 />
               </div>
             </div>
