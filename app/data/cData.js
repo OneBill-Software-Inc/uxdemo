@@ -17,7 +17,7 @@ const cards = [
     id: 2,
     title: 'Product / Pricing',
     text: 'Define your products and pricing. This section helps you configure the exact products and services you offer, set up their pricing, align taxation and accounting settings, and manage promotional offers.',
-    imgUrl: './images/product.png',
+    imgUrl: './images/Product.png',
     videoId: 'pscofr9lrgch',
     icons:
     <TfiPackage color='#343747' size={26}/>,
