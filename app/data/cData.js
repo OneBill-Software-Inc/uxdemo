@@ -49,7 +49,7 @@ const cards = [
     imgUrl: './images/ar.png',
     videoId: 'zmx5fwzdq9pb',
     icons:
-    <LuCassetteTape strokeWidth={1.2} color='#343747' size={26}/>,
+    <LuNewspaper strokeWidth={1.2} color='#343747' size={26}/>,
   },
  
   {

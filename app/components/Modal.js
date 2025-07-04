@@ -76,7 +76,7 @@ export default function ModalVideo({ videoId, title }) {
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="text-gray-600 ring-4 ring-black/30 rounded-full opacity-50 group-hover:opacity-100 transition-all hover:ring-red-600/30 hover:scale-105 hover:text-red-600"
+        className="text-gray-600 cursor-pointer ring-4 ring-black/30 rounded-full opacity-50 group-hover:opacity-100 transition-all hover:ring-red-600/30 hover:scale-105 hover:text-red-600"
       >
         <FaCirclePlay size={48} />
       </button>
