@@ -40,7 +40,8 @@ export default function Hero() {
             Kickstart Your Journey with OneBill
             </h1>
             <p className="mt-3 text-pretty text-lg/relaxed font-medium text-gray-500">
-            Simplify billing, automate subscriptions, and accelerate revenue growth with OneBill. From usage-based pricing to seamless integrations, our all-in-one platform empowers businesses to scale effortlessly.
+            Jumpstart Your Journey with OneBill RevOps
+ Simplify billing, automate subscriptions, and accelerate revenue growth. From usage-based pricing to seamless integrations, our all-in-one platform empowers businesses to scale effortlessly.
             </p>
             <div className="pt-16 hidden">
             <img
