@@ -37,11 +37,10 @@ export default function Hero() {
               </a>
             </div> */}
             <h1 className="mt-10 text-pretty text-xl font-semibold tracking-tight text-gray-900">
-            Kickstart Your Journey with OneBill
+            Jumpstart Your Journey with OneBill RevOps
             </h1>
             <p className="mt-3 text-pretty text-lg/relaxed font-medium text-gray-500">
-            Jumpstart Your Journey with OneBill RevOps
- Simplify billing, automate subscriptions, and accelerate revenue growth. From usage-based pricing to seamless integrations, our all-in-one platform empowers businesses to scale effortlessly.
+            Simplify billing, automate subscriptions, and accelerate revenue growth. From usage-based pricing to seamless integrations, our all-in-one platform empowers businesses to scale effortlessly.
             </p>
             <div className="pt-16 hidden">
             <img
