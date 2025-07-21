@@ -6,11 +6,11 @@ export default function Cards() {
     <div className="bg-gray-50 py-8">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="pb-6">
-          <h1 className="text-pretty text-base pb-6 text-gray-900">
+          <h1 className="text-pretty text-xl pb-6 text-gray-900">
             Watch these videos <strong> in sequence </strong> to get up and running.
           </h1>
         </div>
-        <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
           {cards.map((card) => (
             <div
               key={card.id}
