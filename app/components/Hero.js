@@ -20,7 +20,7 @@ export default function Hero() {
           <rect fill="url(#0787a7c5-978c-4f66-83c7-11c213f99cb7)" width="100%" height="100%" strokeWidth={0} />
         </svg>
         <div className="mx-auto max-w-7xl px-6 py-12">
-          <div className="mx-auto max-w-2xl lg:mx-0 lg:shrink-0 lg:pt-8">
+          <div className="mx-auto lg:mx-0 lg:shrink-0 lg:pt-8">
             <img
               alt="Your Company"
               src="https://www.onebillsoftware.com/wp-content/uploads/2021/12/OneBill-Logo.png.webp"
@@ -39,7 +39,7 @@ export default function Hero() {
             <h1 className="mt-10 text-pretty text-xl font-semibold tracking-tight text-gray-900">
             Jumpstart Your Journey with OneBill RevOps
             </h1>
-            <p className="mt-3 text-pretty text-lg/relaxed font-medium text-gray-500">
+            <p className="mt-3 text-pretty text-lg/relaxed font-medium text-gray-500 max-w-2xl">
             Simplify billing, automate subscriptions, and accelerate revenue growth. From usage-based pricing to seamless integrations, our all-in-one platform empowers businesses to scale effortlessly.
             </p>
             <div className="pt-16 hidden">
