@@ -1,4 +1,4 @@
-import { LuChartNoAxesCombined, LuPackage, LuCassetteTape, LuUsers, LuNewspaper, LuSettings } from "react-icons/lu";
+import { LuChartNoAxesCombined, LuPackage, LuVideo, LuUsers, LuNewspaper, LuSettings } from "react-icons/lu";
 import { TfiShoppingCartFull, TfiPanel,TfiPaintBucket, TfiPackage, TfiCreditCard } from "react-icons/tfi";
 
 const cards = [

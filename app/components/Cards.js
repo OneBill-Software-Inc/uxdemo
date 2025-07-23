@@ -1,5 +1,6 @@
 import cards from "../data/cData";
 import ModalVideo from "./Modal";
+import { LuVideo, LuDot } from "react-icons/lu";
 
 export default function Cards() {
   return (
@@ -10,12 +11,14 @@ export default function Cards() {
             Watch these videos <strong> in sequence </strong> to get up and running.
           </h1>
         </div>
+       
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
           {cards.map((card) => (
             <div
               key={card.id}
               className="group relative overflow-hidden space-y-3 rounded-lg ring-8 hover:ring-6 hover:ring-orange-500/10 hover:border-orange-300/50 ring-black/5 border border-gray-300 bg-white px-6 pt-8 shadow-xs hover:shadow-md transition-all duration-300 focus-within:ring-2 focus-within:ring-orange-500 focus-within:ring-offset-2"
             >
+              <div className=" absolute bottom-0 right-4 flex z-10"><LuVideo strokeWidth={1.2}  size={24} fill="#EAFFE2" className="text-green-950/80" /> <LuDot className="text-green-900/80 relative -ml-7" size={25}  /> </div>
               <div className="flex justify-between">
                 <div className="text-md font-bold gap-2 flex items-center bg-linear-to-b from-slate-900 to-orange-700 bg-clip-text text-transparent">
                   {card.icons} {card.title}
@@ -27,8 +30,8 @@ export default function Cards() {
               </div>
 
               <div className="h-40 relative z-0 ">
-                <div className="absolute inset-0 group-hover:-top-1 transition-all duration-300 flex justify-center items-center bg-linear-to-b from-white to-transparent z-50 group-hover:scale-105">
-                  <div className="relative">
+                <div className="absolute inset-0 group-hover:-top-1 transition-all duration-300 flex justify-center items-center bg-linear-to-b from-white to-transparent z-10">
+                  <div className="relative hidden group-hover:block">
                     <ModalVideo videoId={card.videoId} title={card.title} />
                   </div>
                 </div>
@@ -37,6 +40,7 @@ export default function Cards() {
                   src={card.imgUrl}
                   alt=""
                 />
+                
               </div>
             </div>
           ))}
