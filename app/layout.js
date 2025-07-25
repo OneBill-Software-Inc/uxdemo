@@ -12,6 +12,7 @@ const geistMono = Geist_Mono({
 });
 const fraunces = Young_Serif({
   variable: "--font-libre-bodoni",
+  subsets: ["latin"],
   weight: ["400"],
 });
 
