@@ -26,6 +26,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-libre-bodoni: 'Libre Bodoni', serif;
+  --font-geist-sans: 'Geist Sans', sans-serif;
+  --font-geist-mono: 'Geist Mono', monospace;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -38,9 +41,15 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), sans-serif;
 }
-
+h1.hero-text {
+  font-family: var(--font-libre-bodoni), sans-serif;
+  .hero-tag {
+    font-style: italic;
+    font-weight: 200;
+  }
+}
 @keyframes grid-moving-line {
   0% {
       transform: translateY(-100%);
